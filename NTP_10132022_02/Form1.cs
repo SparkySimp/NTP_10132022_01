@@ -52,5 +52,10 @@ namespace NTP_10132022_02
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            nuIndirim.Maximum = decimal.MaxValue;
+            nuEtiket.Maximum = decimal.MaxValue;
+        }
     }
 }

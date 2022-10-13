@@ -131,6 +131,7 @@ namespace NTP_10132022_02
             this.Controls.Add(this.nuEtiket);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nuEtiket)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nuIndirim)).EndInit();
             this.ResumeLayout(false);

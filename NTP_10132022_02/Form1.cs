@@ -33,6 +33,7 @@ namespace NTP_10132022_02
 
            switch(btn.Text)
            {
+                // Formula of discounting: Discounted Price = Startup Price * (100 - Discount Percentage);
                 case "10%":
                     nuIndirim.Value = nuEtiket.Value * 0.90M;
                     break;

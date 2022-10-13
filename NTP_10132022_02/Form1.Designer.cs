@@ -57,7 +57,6 @@ namespace NTP_10132022_02
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Etiket Fiyatı: ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 

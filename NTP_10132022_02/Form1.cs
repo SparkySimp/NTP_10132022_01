@@ -17,16 +17,6 @@ namespace NTP_10132022_02
             InitializeComponent();
         }
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             var btn = (Button)sender;

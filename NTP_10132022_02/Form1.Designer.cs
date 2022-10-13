@@ -47,7 +47,6 @@ namespace NTP_10132022_02
             this.nuEtiket.Name = "nuEtiket";
             this.nuEtiket.Size = new System.Drawing.Size(120, 20);
             this.nuEtiket.TabIndex = 0;
-            this.nuEtiket.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label1
             // 

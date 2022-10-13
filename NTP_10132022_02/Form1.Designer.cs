@@ -63,7 +63,8 @@ namespace NTP_10132022_02
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "10%";
+            this.button1.Tag = "10";
+            this.button1.Text = "Yüzde 10";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -73,7 +74,8 @@ namespace NTP_10132022_02
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
-            this.button2.Text = "25%";
+            this.button2.Tag = "25";
+            this.button2.Text = "Yüzde 25";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -83,7 +85,8 @@ namespace NTP_10132022_02
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 4;
-            this.button3.Text = "50%";
+            this.button3.Tag = "50";
+            this.button3.Text = "Yüzde 50";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -93,7 +96,8 @@ namespace NTP_10132022_02
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 5;
-            this.button4.Text = "75%";
+            this.button4.Tag = "75";
+            this.button4.Text = "Yüzde 75";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button1_Click);
             // 
